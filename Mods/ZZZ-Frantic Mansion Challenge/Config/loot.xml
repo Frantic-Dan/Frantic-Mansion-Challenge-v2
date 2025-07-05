@@ -186,7 +186,6 @@
 		</lootgroup>	
 			
 		<lootgroup name="groupWastelandTreasuresBooks">
-			<item name="bookWasteTreasuresAcid"/>
 			<item name="bookWasteTreasuresCloth"/>
 			<item name="bookWasteTreasuresCoffins"/>
 			<item name="bookWasteTreasuresDoors"/>
@@ -416,35 +415,31 @@
 		
 		<lootgroup name="groupBikerLoot" count="all">
 			<item name="vehiclesSkillMagazineDT" prob="1" force_prob="true" tags="GMLoot"/>
-			<item name="resourceOil" count="4" />
+			<item name="resourceOil" count="3" />
 		</lootgroup>
 		
 		<lootgroup name="groupLabWorkerLoot" count="all">
 			<item name="medicalSkillMagazineDT" prob=".1" force_prob="true" tags="MedLoot"/>
-			<item name="resourceBone" count="4"/>
 			<item name="resourcePotassiumNitratePowder" count="5"/>
 			<item name="toolBeaker" count="1" prob=".1" force_prob="true"/>
 		</lootgroup>
 		
 		<lootgroup name="groupRadLabWorkerLoot" count="all">
 			<item name="medicalSkillMagazineDT" prob=".2" force_prob="true" tags="MedLoot"/>
-			<item name="resourceBone" count="4"/>
 			<item name="resourcePotassiumNitratePowder" count="5"/>
 			<item name="toolBeaker" count="1" prob=".2" force_prob="true"/>
 		</lootgroup>
 		
 		<lootgroup name="groupNurseLoot" count="all">
 			<item name="medicalSkillMagazineDT" prob=".1" force_prob="true" tags="MedLoot"/>
-			<item name="resourceBone" count="4"/>
 			<item name="resourcePotassiumNitratePowder" count="5"/>
-			<item name="drugAntibioticsDT" count="1" prob=".1" force_prob="true" tags="MedLoot"/>
+			<item name="drugAntibioticsDT" count="1" prob=".2" force_prob="true" tags="MedLoot"/>
 		</lootgroup>
 		
 		<lootgroup name="groupRadNurseLoot" count="all">
 			<item name="medicalSkillMagazineDT" prob=".2" force_prob="true" tags="MedLoot"/>
-			<item name="resourceBone" count="4"/>
 			<item name="resourcePotassiumNitratePowder" count="5"/>
-			<item name="drugAntibioticsDT" count="1" prob=".2" force_prob="true" tags="MedLoot"/>
+			<item name="drugAntibioticsDT" count="1" prob=".3" force_prob="true" tags="MedLoot"/>
 		</lootgroup>
 		
 		<lootgroup name="groupUtilityWorkerLoot" count="all">
@@ -464,26 +459,22 @@
 		</lootgroup>
 		
 		<lootgroup name="groupFatZombieLoot" count="all">
-			<item name="resourceBone" count="4"/>
-			<item name="foodRottingFlesh" count="3"/>
 			<item name="resourceAnimalFat" prob=".1" force_prob="true"/>
 			<item group="groupLooterBooks" prob=".2" force_prob="true"/>
 		</lootgroup>
 		
 		<lootgroup name="groupRadFatZombieLoot" count="all">
-			<item name="resourceBone" count="4"/>
-			<item name="foodRottingFlesh" count="3"/>
 			<item name="resourceAnimalFat" prob=".1" force_prob="true"/>
 			<item group="groupLooterBooks" prob=".3" force_prob="true"/>
 		</lootgroup>
 		
 		<lootgroup name="groupHazmatLoot" count="all">
-			<item name="resourceBone" count="4"/>
 			<item name="resourcePotassiumNitratePowder" count="5"/>
 		</lootgroup>
 		
 		<lootgroup name="groupLumberjackLoot" count="all">
-			<item name="resourceSnowBall" count="5"/>			
+			<item name="resourceSnowBall" count="2"/>
+			<item name="foodHoney" prob=".05" force_prob="true"/>
 		</lootgroup>
 		
 		<lootgroup name="groupMutatedLoot" count="all">
