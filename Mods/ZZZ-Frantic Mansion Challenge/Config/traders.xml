@@ -3,9 +3,22 @@
     <append xpath="//trader_item_group[@name='cannedfood']">
 		<item name="foodEgg" />
     </append>
+	
+	<append xpath="//trader_item_group[@name='foodCandy']">
+		<item name="foodEgg" />
+    </append>
 
 	<append xpath="//trader_item_group[@name='groupDrinksSpecial']">
 		<item name="foodHoney" />
 	</append>
+	
+	<append xpath="//trader_item_group[@name='drinkVending']">
+		<item name="foodHoney" />
+	</append>
+	
+	<set xpath="//trader_info/trader_items/item[@group='drinkVending']/@count">8,10</set>
+	<set xpath="//trader_info/trader_items/item[@group='drinkSpecialVending']/@count">8,10</set>
+	<set xpath="//trader_info/trader_items/item[@group='foodCandy']/@count">8,10</set>
+	<set xpath="//trader_info/trader_items/item[@group='cannedfood']/@count">8,10</set>
 	
 </configs>
