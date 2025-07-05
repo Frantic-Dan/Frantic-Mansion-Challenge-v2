@@ -354,4 +354,10 @@
 	<set xpath="//block[@name='campfire']//property[@name='HeatMapStrength']/@value">2.5</set>
 	<set xpath="//block[@name='forge']//property[@name='HeatMapStrength']/@value">3</set>
 	
+	<set xpath="//block[@name='treeStump']//drop[@event='Destroy']/@prob">.3</set>
+	<set xpath="//block[@name='treeStumpPOI']//drop[@event='Destroy']/@prob">.3</set>
+	<remove xpath="//block[@name='treeStump']//property[@name='DestroyedEvent']"/>
+	<remove xpath="//block[@name='treeStumpPOI']//property[@name='DestroyedEvent']"/>
+	
+	
 </configs>
