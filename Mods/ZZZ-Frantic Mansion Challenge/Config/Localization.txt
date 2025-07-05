@@ -11,7 +11,7 @@ resourceBatteryAcid,Bottle of Acid
 resourceBatteryAcidDesc,A resource used in crafting recipes.\n\nCan be extracted from a car battery at the chemistry station.
 resourceAnimalFat,"Fat"
 resourceAnimalFatDesc,"Fat can be eaten raw or used in cooking or other crafting recipes."
-drugAntibioticsDT,Antibiotics
+drugAntibioticsDT,Herbal Antibiotics
 drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire or at the chemistry station.
 foodShepardsPie,Shepherd's Pie
 foodShepardsPieDesc,"Shepherd's Pie sure is tasty and super filling.\n\nI just wish The Fun Pimps spelt it properly, so I didn't need to add this description..."
