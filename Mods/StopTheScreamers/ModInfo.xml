@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModInfo>
+	<Name value="StopTheScreamers"/>
+	<DisplayName value="Stop The Screamers"/>
+	<Description value="It lets you configure screamer frequency."/>
+	<Author value="redbeardt" />
+	<Version value="0.1"/>
+	<Website value="https://discord.gg/2cfHGJQhBR"/>
+</ModInfo>

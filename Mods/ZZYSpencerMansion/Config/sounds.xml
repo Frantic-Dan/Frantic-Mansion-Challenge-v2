@@ -1,0 +1,19 @@
+<configs>
+
+<append xpath="/Sounds">
+
+	<SoundDataNode name="REPiano">
+		<AudioSource name="@:Sounds/Prefabs/AudioSource_Notifications.prefab"/>
+		<AudioClip ClipName="#@modfolder:/Config/Resources/PianoAudio.unity3d?MoonlightSonata.mp3"/>
+		<maxVoicesPerEntity value="1"/>
+		<MaxVoices value="30"/> 
+	</SoundDataNode>
+	
+	<SoundDataNode name="REGrandfatherClock">
+		<AudioSource name="#@modfolder:/Config/Resources/REBlocks.unity3d?GrandfatherClockAudio"/>
+		<AudioClip ClipName="#@modfolder:/Config/Resources/grandfatherclockaudio.unity3d?grandfatherclockloud.mp3"/>
+	</SoundDataNode>	
+
+</append>
+
+</configs>

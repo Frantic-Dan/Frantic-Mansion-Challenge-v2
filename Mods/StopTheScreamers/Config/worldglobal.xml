@@ -1,0 +1,25 @@
+<xml>
+	<append xpath="//environment">
+
+		<!-- Amount of heat player must pass to trigger chance of scout horde. -->
+		<property name="ScoutHordeHeatThreshold" value="100"/>
+
+		<!-- Probability of scout horde spawning when threshold is passed. -->
+		<property name="ScoutHordeProbability" value=".6"/>
+
+		<!-- Minimum time between attempts to spawn scout horde. -->
+		<property name="ScoutHordeDelay" value="1800"/>
+
+		<!--
+		# A21 Defaults:
+		ScoutHordeHeatThreshold   = 100
+		ScoutHordeProbability     = .6 (60%)
+		ScoutHordeDelay           = ?
+
+		# 1.0 Defaults:
+		ScoutHordeHeatThreshold   = 25
+		ScoutHordeProbability     = .2 (20%)
+		ScoutHordeDelay           = 1320
+		-->
+	</append>
+</xml>

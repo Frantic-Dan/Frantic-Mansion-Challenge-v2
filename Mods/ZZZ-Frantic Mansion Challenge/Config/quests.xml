@@ -1,0 +1,98 @@
+<configs>
+
+	<insertBefore xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+		<quest id="quest_DishongTowerChallenge">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+			<property name="name_key" value="challenge_StartingDishongTower"/>
+			<property name="subtitle_key" value="challenge_StartingDishongTower_subtitle"/>
+			<property name="description_key" value="challenge_StartingDishongTower_description"/>
+			<property name="icon" value="ui_game_symbol_map_city"/>
+			<property name="category_key" value="quest"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="quest_hints" value="quest_whiteRiverCitizen1_hint1,quest_whiteRiverCitizen1_hint2"/>
+		
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="Quest_Completion_tip"/>
+
+		
+			<action type="ShowMessageWindow">
+				<property name="message" value="tutorialTipQuest01FMC"/>
+				<property name="title" value="tutorialTipQuest01_titleFMC"/>
+				<!-- <property name="delay" value="1"/> -->
+			</action>
+		</quest>
+		
+		<quest id="FinalEscape">
+		<property name="name_key" value="FinalEscapename"/>
+		<property name="subtitle_key" value="FinalEscapekey"/>
+		<property name="description_key" value="FinalEscapedesc"/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category" value="Mission"/>
+		<property name="difficulty" value="hard"/>
+		<property name="offer_key" value="quest_BasicSurvival_offer"/>
+		<property name="shareable" value="false"/>
+		<property name="add_to_tier_complete" value="false"/>
+		
+		<objective type="Goto" id="trader" value="5" phase="1">
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+
+		<reward type="Quest" id="Completion"/>
+	</quest>
+
+	<!-- <quest id="Completion">
+		<property name="name_key" value="Quest_Completion_tip_title"/>
+		<property name="subtitle_key" value="Quest_Completion_tip_title"/>
+		<property name="description_key" value="Completion_desc"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category" value="Congratulations!"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		<property name="add_to_tier_complete" value="false"/>
+		
+		<action type="GameEvent" >
+			<property name="event" value="BeatGame"/>
+			<property name="delay" value="1"/>
+		</action>
+		
+	</quest> -->
+
+		<quest id="Completion">
+			<property name="name_key" value="Challenge_Completion"/>
+			<property name="subtitle_key" value="Challenge_Completion_subtitle"/>
+			<property name="description_key" value="Challenge_Completion_description"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category" value="Congratulations!"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+			<objective type="InteractWithNPC">
+			<property name="phase" value="1"/>
+			<property name="nav_object" value="return_to_trader"/>
+			</objective>
+
+			<reward type="Quest" id="Completion2"/>
+			
+		</quest>
+		
+		<quest id="Completion2">
+			<property name="name_key" value="Challenge_Completion"/>
+			<property name="subtitle_key" value="Challenge_Completion_subtitle"/>
+			<property name="description_key" value="Challenge_Completion_description"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category" value="Congratulations!"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+
+			<action type="ShowMessageWindow" >
+				<property name="message" value="Quest_Completion_tip"/>
+				<property name="title" value="Quest_Completion_tip_title"/>
+				<property name="delay" value="1"/>
+			</action>
+			
+		</quest>
+	</insertBefore>
+</configs>

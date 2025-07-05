@@ -1,0 +1,15 @@
+<configs>
+	
+<append xpath="/blockplaceholders">	
+	
+	<placeholder name="terrainFiller">
+		<block name="terrACSnow" biome="snow" />
+		<block name="terrACForestGround" biome="pine_forest" />
+		<block name="terrACDesertGround" biome="desert" />
+		<!-- <block name="treeBrownGrassDiagonal" biome="water" /> -->
+		<block name="destroyedstoneAC" biome="wasteland" />
+		<block name="terrACBurntForestGround" biome="burnt_forest" />
+	</placeholder>
+</append>	
+	
+</configs>

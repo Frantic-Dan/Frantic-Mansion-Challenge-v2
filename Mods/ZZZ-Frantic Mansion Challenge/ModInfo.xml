@@ -1,0 +1,9 @@
+<xml>	
+	<Name value="FranticMansionChallenge" />
+	<DisplayName value="Frantic Mansion Challenge" />
+	<Version value="1.0.0.0" />
+	<Description value="Frantic Mansion challenge for release 1.1" />
+	<Author value="Zilox,HellsJanitor,Frantic Dan,Midnight Designer,SphereII,Pitchsilent" />
+	<Website value="" />
+	<SkipWithAntiCheat value="false" />
+</xml>

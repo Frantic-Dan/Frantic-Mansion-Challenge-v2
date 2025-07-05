@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="True" />
+  <property name="QuestTags" value="trader" />
+  <property name="PrefabSize" value="3, 2, 3" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-1" />
+  <property name="TeleportVolumeSize" value="" />
+  <property name="TeleportVolumeStart" value="" />
+  <property name="Zoning" value="none" />
+  <property name="WallVolumeSize" value="5, 5, 1#5, 5, 1#1, 5, 5#5, 1, 5" />
+  <property name="WallVolumeStart" value="-1, 0, -1#-1, 0, 3#-1, 0, -1#-1, 4, -1" />
+  <property class="Stats">
+    <property name="TotalVertices" value="3710" />
+    <property name="TotalTriangles" value="1915" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="3650" />
+      <property name="Triangles" value="1859" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="60" />
+      <property name="Triangles" value="56" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="Trader">
+      <property name="0" value="1, 1, 1" />
+    </property>
+  </property>
+</prefab>
