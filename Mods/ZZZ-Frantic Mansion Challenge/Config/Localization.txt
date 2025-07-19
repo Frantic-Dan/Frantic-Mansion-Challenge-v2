@@ -179,6 +179,9 @@ zombieMutatedRadiated,Radiated Joutre
 zombieFatHawaiian,VinyardRages
 zombieFatHawaiianFeral,Feral VinyardRages
 zombieFatHawaiianRadiated,Radiated VinyardRages
+zombieBowler,GodZiebZilla
+zombieBowlerFeral,Feral GodZiebZilla
+zombieBowlerRadiated,Radiated GodZiebZilla
 
 loadingTipDishong1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are usuable farmplots around the mansion."
 loadingTipDishong1_title,Seeds
