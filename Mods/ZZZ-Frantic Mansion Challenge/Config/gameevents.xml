@@ -1,4 +1,4 @@
-<Hells_Janitor>
+<Frantic_Dan>
 
 	<set xpath="//action_sequence[@name='game_first_spawn']">
 		<property name="allow_user_trigger" value="false"/>
@@ -62,5 +62,7 @@
 	</action_sequence>
 	
 	</append>
+	
+	<set xpath="/gameevents/action_sequence[@name='block_tree_stump_bees']/requirement[1]/property[@name='value']/@value">40</set>
 
-</Hells_Janitor>
+</Frantic_Dan>
