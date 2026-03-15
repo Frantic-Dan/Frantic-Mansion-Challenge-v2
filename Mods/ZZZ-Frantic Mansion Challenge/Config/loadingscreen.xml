@@ -7,21 +7,18 @@
 </set> -->
 
 
-<set xpath="/doc/tips//tip[1]/@key">loadingTipDishong1</set>
-<set xpath="/doc/tips//tip[2]/@key">loadingTipDishong2</set>
-<set xpath="/doc/tips//tip[3]/@key">loadingTipDishong3</set>
-<set xpath="/doc/tips//tip[4]/@key">loadingTipDishong4</set>
-<set xpath="/doc/tips//tip[5]/@key">loadingTipDishong5</set>
-<set xpath="/doc/tips//tip[6]/@key">loadingTipDishong6</set>
-<set xpath="/doc/tips//tip[7]/@key">loadingTipDishong7</set>
-<set xpath="/doc/tips//tip[8]/@key">loadingTipDishong8</set>
-<!-- <set xpath="/doc/tips//tip[9]/@key">loadingTipDishong9</set> -->
-<set xpath="/doc/tips//tip[9]/@key">loadingTipDishong10</set>
-<!-- <set xpath="/doc/tips//tip[11]/@key">loadingTipDishong11</set> -->
-<set xpath="/doc/tips//tip[10]/@key">loadingTipDishong12</set>
-<!-- <set xpath="/doc/tips//tip[13]/@key">loadingTipDishong13</set> -->
-<set xpath="/doc/tips//tip[11]/@key">loadingTipDishong14</set>
-
+<set xpath="/doc/tips//tip[1]/@key">loadingTipFrantic1</set>
+<set xpath="/doc/tips//tip[2]/@key">loadingTipFrantic2</set>
+<set xpath="/doc/tips//tip[3]/@key">loadingTipFrantic3</set>
+<set xpath="/doc/tips//tip[4]/@key">loadingTipFrantic4</set>
+<set xpath="/doc/tips//tip[5]/@key">loadingTipFrantic5</set>
+<set xpath="/doc/tips//tip[6]/@key">loadingTipFrantic6</set>
+<set xpath="/doc/tips//tip[7]/@key">loadingTipFrantic7</set>
+<set xpath="/doc/tips//tip[8]/@key">loadingTipFrantic8</set>
+<set xpath="/doc/tips//tip[9]/@key">loadingTipFrantic9</set>
+<set xpath="/doc/tips//tip[10]/@key">loadingTipFrantic10</set>
+<set xpath="/doc/tips//tip[11]/@key">loadingTipFrantic11</set>
+<set xpath="/doc/tips//tip[12]/@key">loadingTipFrantic12</set>
 
 <remove xpath="/doc/tips//tip[@key='loadingTipPerkLootBoost']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipBaseUpgrading']"/>
@@ -45,5 +42,11 @@
 <remove xpath="/doc/tips//tip[@key='loadingTipUnlockingRecipes']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipCraftingBetterQL']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipMagazines']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipSmell']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipWeather']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipSeeds']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipDewCollector']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipApiary']"/>
+<remove xpath="/doc/tips//tip[@key='loadingTipCollectors']"/>
 
 </configs>
