@@ -1,5 +1,5 @@
 Key,English
-Spencer_Mansion_v2(by_Frantic_Dan),Spencer Mansion (Frantic_Dan)
+Spencer_Mansion_v1(by_Frantic_Dan),Spencer Mansion (Frantic_Dan)
 goGameWorld,[cd5c5c]Select 'Frantic Mansion (biome)'[-]
 goLootRespawnDays,Loot Respawn
 goLootRespawnDaysDesc,The number of days for loot to respawn if there are no players around.\n\nSelect [00ff00]ANYTHING[-] except [cd5c5c]'Disabled'[-]
@@ -95,122 +95,115 @@ sledgehammersSkillMagazineDT,Get Hammered
 spearsSkillMagazineDT,Sharp Sticks
 roboticsSkillMagazineDT,Tech Planet
 explosivesSkillMagazineDT,Explosive Magazine
-zombieArlene,Moonlunaplays
-zombieArleneFeral,Feral Moonlunaplays
-zombieArleneRadiated,Radiated Moonlunaplays
-zombieBiker,Zilox
-zombieBikerFeral,Feral Zilox
-zombieBikerRadiated,Radiated Zilox
-zombieBoe,w00kien00kie
-zombieBoeFeral,Feral w00kien00kie
-zombieBoeRadiated,Radiated w00kien00kie
-zombieBurnt,Jagz_1
-zombieBurntFeral,Feral Jagz_1
-zombieBurntRadiated,Radiated Jagz_1
-zombieBusinessMan,LobitoGamingTV
-zombieBusinessManFeral,Feral LobitoGamingTV
-zombieBusinessManRadiated,Radiated LobitoGamingTV
-zombieDarlene,Lumun
-zombieDarleneFeral,Feral Lumun
-zombieDarleneRadiated,Radiated Lumun
-zombieFatCop,Frantic_Dan
-zombieFatCopFeral,Feral Frantic_Dan
-zombieFatCopRadiated,Radiated Frantic_Dan
-zombieFemaleFat,More2Me4Life
-zombieFemaleFatFeral,Feral More2Me4Life
-zombieFemaleFatRadiated,Radiated More2Me4Life
-zombieJanitor,HellsJanitor
-zombieJanitorFeral,Feral HellsJanitor
-zombieJanitorRadiated,Radiated HellsJanitor
-zombieJoe,Glock9
-zombieJoeFeral,Feral Glock9
-zombieJoeRadiated,Radiated Glock9
-zombieLab,Kualija
-zombieLabFeral,Feral Kualija
-zombieLabRadiated,Radiated Kualija
-zombieLumberjack,JonahBirch
-zombieLumberjackFeral,Feral JonahBirch
-zombieLumberjackRadiated,Radiated JonahBirch
-zombieMaleHazmat,MidnightDesigner
-zombieMaleHazmatFeral,Feral MidnightDesigner
-zombieMaleHazmatRadiated,Radiated MidnightDesigner
-zombieMarlene,Misterri
-zombieMarleneFeral,Feral Misterri
-zombieMarleneRadiated,Radiated Misterri
-zombieMoe,PitchSilent
-zombieMoeFeral,Feral PitchSilent
-zombieMoeRadiated,Radiated PitchSilent
-zombieNurse,RambunctiousRed
-zombieNurseFeral,Feral RambunctiousRed
-zombieNurseRadiated,Radiated RambunctiousRed
-zombiePartyGirl,WaywardEko
-zombiePartyGirlFeral,Feral WaywardEko
-zombiePartyGirlRadiated,Radiated WaywardEko
-zombieScreamer,KimmyTot
-zombieScreamerFeral,Feral KimmyTot
-zombieScreamerRadiated,Radiated KimmyTot
-zombieSkateboarder,sphereII
-zombieSkateboarderFeral,Feral sphereII
-zombieSkateboarderRadiated,Radiated sphereII
-zombieSoldier,Shadow_Floodlight
-zombieSoldierFeral,Feral Shadow_Floodlight
-zombieSoldierRadiated,Raditaed Shadow_Floodlight
+zombieArlene,
+zombieArleneFeral,
+zombieArleneRadiated,
+zombieBiker,
+zombieBikerFeral,
+zombieBikerRadiated,
+zombieBoe,
+zombieBoeFeral,
+zombieBoeRadiated,
+zombieBurnt,
+zombieBurntFeral,
+zombieBurntRadiated,
+zombieBusinessMan,
+zombieBusinessManFeral,
+zombieBusinessManRadiated,
+zombieDarlene,
+zombieDarleneFeral,
+zombieDarleneRadiated,
+zombieFatCop,
+zombieFatCopFeral,
+zombieFatCopRadiated,
+zombieFemaleFat,
+zombieFemaleFatFeral,
+zombieFemaleFatRadiated,
+zombieJanitor,
+zombieJanitorFeral,
+zombieJanitorRadiated,
+zombieJoe,
+zombieJoeFeral,
+zombieJoeRadiated,
+zombieLab,
+zombieLabFeral,
+zombieLabRadiated,
+zombieLumberjack,
+zombieLumberjackFeral,
+zombieLumberjackRadiated,
+zombieMaleHazmat,
+zombieMaleHazmatFeral,
+zombieMaleHazmatRadiated,
+zombieMarlene,
+zombieMarleneFeral,
+zombieMarleneRadiated,
+zombieMoe,
+zombieMoeFeral,
+zombieMoeRadiated,
+zombieNurse,
+zombieNurseFeral,
+zombieNurseRadiated,
+zombiePartyGirl,
+zombiePartyGirlFeral,
+zombiePartyGirlRadiated,
+zombieScreamer,
+zombieScreamerFeral,
+zombieScreamerRadiated,
+zombieSkateboarder,
+zombieSkateboarderFeral,
+zombieSkateboarderRadiated,
+zombieSoldier,
+zombieSoldierFeral,
+zombieSoldierRadiated,
 zombieSpider,Jynxdginger79
 zombieSpiderFeral,Feral Jynxdginger79
 zombieSpiderRadiated,Radiated Jynxdginger79
-zombieSteve,NotOnly25
-zombieSteveFeral,Feral NotOnly25
-zombieSteveRadiated,Radiated NotOnly25
-zombieTomClark,AnneikaTheJammyBrit
-zombieTomClarkFeral,Feral AnneikaTheJammyBrit
-zombieTomClarkRadiated,Radiated AnneikaTheJammyBrit
-zombieUtilityWorker,Cran5000
-zombieUtilityWorkerFeral,Feral Cran5000
-zombieUtilityWorkerRadiated,Radiated Cran5000
+zombieSteve,AnneikaTheJammyBrit
+zombieSteveFeral,Feral AnneikaTheJammyBrit
+zombieSteveRadiated,Radiated AnneikaTheJammyBrit
+zombieTomClark,Frantic_Dan
+zombieTomClarkFeral,Feral Frantic_Dan
+zombieTomClarkRadiated,Radiated Frantic_Dan
+zombieUtilityWorker,
+zombieUtilityWorkerFeral,
+zombieUtilityWorkerRadiated,
 zombieYo,YubiNashi
 zombieYoFeral,Feral YubiNashi
 zombieYoRadiated,Radiated YubiNashi
 zombieWightFeral,Tyrant - Mr.X
 zombieWightRadiated,Radiated Tyrant - Mr.X
-animalZombieDog,AuroraGiggleFairy
-zombieMutated,Joutre
-zombieMutatedFeral,Feral Joutre
-zombieMutatedRadiated,Radiated Joutre
-zombieFatHawaiian,VinyardRages
-zombieFatHawaiianFeral,Feral VinyardRages
-zombieFatHawaiianRadiated,Radiated VinyardRages
-zombieBowler,GodZiebZilla
-zombieBowlerFeral,Feral GodZiebZilla
-zombieBowlerRadiated,Radiated GodZiebZilla
+animalZombieDog,
+zombieMutated,
+zombieMutatedFeral,
+zombieMutatedRadiated,
+zombieFatHawaiian,
+zombieFatHawaiianFeral,
+zombieFatHawaiianRadiated,
 
-loadingTipDishong1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are usuable farmplots around the mansion."
-loadingTipDishong1_title,Seeds
-loadingTipDishong2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
-loadingTipDishong2_title,Zombie Loot
-loadingTipDishong3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines in their loot bag."
-loadingTipDishong3_title,Skill Magazines
-loadingTipDishong4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
-loadingTipDishong4_title,Looting
-loadingTipDishong5,"Zombies can now be set to respawn after a time you decide. Check the 'Mansion' tab on the main menu, and set the number of days you want between zombies respawning in the mansion."
-loadingTipDishong5_title,Zombie respawns
-loadingTipDishong6,"Resources are scarce in the mansion, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
-loadingTipDishong6_title,Resources
-loadingTipDishong7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
-loadingTipDishong7_title,Crafting
-loadingTipDishong8,"Walking on the ground outside, aside from plain dirt, is a very bad idea!"
-loadingTipDishong8_title,Boundary
-loadingTipDishong9,"Certain in-game functions, like zombie health bars and XP pop-ups, can be enabled or disabled from the pause menu. Pause the game, click 'video' then the 'Customization' tab."
-loadingTipDishong9_title,Customization
-loadingTipDishong10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, HellsJanitor for the xpath, ocbMaurice and Pyrokar420 for the custom paint textures, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept. And Glock9 for the Dishong Tower Challenge idea."
-loadingTipDishong10_title,Special Thanks
-loadingTipDishong11,"Horde nights CAN be disabled from the main menu if you wish, or, if you'd rather have more choice, the 'Avoid Bloodmoon' injection can be crafted."
-loadingTipDishong11_title,Horde Night
-loadingTipDishong12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
-loadingTipDishong12_title,Mansion Resources
-loadingTipDishong13,"You can lock slots in your inventory by hovering over a slot and pressing 'X'. The slot will have a green border, indicating it is locked."
-loadingTipDishong13_title,Locked Slots
-loadingTipDishong14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
-loadingTipDishong14_title,Wrench
+loadingTipFrantic1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are usuable farmplots around the mansion."
+loadingTipFrantic1_title,Seeds
+loadingTipFrantic2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
+loadingTipFrantic2_title,Zombie Loot
+loadingTipFrantic3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines in their loot bag."
+loadingTipFrantic3_title,Skill Magazines
+loadingTipFrantic4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
+loadingTipFrantic4_title,Looting
+loadingTipFrantic5,"Zombies can now be set to respawn after a time you decide. Check the 'Mansion' tab on the main menu, and set the number of days you want between zombies respawning in the mansion."
+loadingTipFrantic5_title,Zombie respawns
+loadingTipFrantic6,"Resources are scarce in the mansion, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
+loadingTipFrantic6_title,Resources
+loadingTipFrantic7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
+loadingTipFrantic7_title,Crafting
+loadingTipFrantic8,"Do NOT cross over the red line outside!"
+loadingTipFrantic8_title,Boundary
+loadingTipFrantic9,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, HellsJanitor for the xpath, ocbMaurice and Pyrokar420 for the custom paint textures, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept. And Glock9 for the Dishong Tower Challenge idea."
+loadingTipFrantic9_title,Special Thanks
+loadingTipFrantic10,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
+loadingTipFrantic10_title,Mansion Resources
+loadingTipFrantic11,"You can lock slots in your inventory by hovering over a slot and pressing 'X'. The slot will have a green border, indicating it is locked."
+loadingTipFrantic11_title,Locked Slots
+loadingTipFrantic12,"Keep it repaired. Look after your wrench, and your wrench will look after you."
+loadingTipFrantic12_title,Wrench
 
 challengeDTCQuest,Starting Off
 challengeGroupAccessoriesReward,"Gyrocopter Basics"
@@ -317,7 +310,7 @@ challengeCraftGyroCopterDesc,"Time to get the hell out of this place!\n\nBuild t
 
 resourcePaper,"Umbrella Secret Documents"
 resourcePaperDescFMC,"Lure S.T.A.R.S to the Spencer Estate and gather combat data against the B.O.W's\n\nPlay as Jill Valentine in the Resident Evil mod, The Spencer Mansion Incident. Available on 7daystodiemods and Nexus!!"
-tutorialTipQuest01FMC,"Welcome to the Frantic Mansion Challenge.\n\nFight your way through the mansion, looting and crafting everything you need to craft a gyrocopter to make your escape from the roof. \nFailure is not an option. \n\nRULES:\n1: You can walk on the dirt outside, but you cannot walk beyond the dirt.\n2: You may build bridges off the side of the building to reach things, but those bridges [cd5c5c]must support themselves and cannot touch the ground.[-]\n3: All default game settings, or harder, but not easier. It's recommended to have loot respawn set to 5 days.\n4: If you die, the [cd5c5c]GAME IS OVER[-].\n5: You must survive until you are able to build a gyrocopter and fly to the helipad.\n\nYou have [cd5c5c]ONE[-] life. Make it count."
+tutorialTipQuest01FMC,"Welcome to the Frantic Mansion Challenge.\n\nFight your way through the mansion, looting and crafting everything you need to craft a gyrocopter to make your escape from the roof. \nFailure is not an option. \n\nRULES:\n1: You can walk around outside, but you cannot walk beyond the red barrier.\n2: All default game settings, or harder, but not easier. It's recommended to have loot respawn set to 4 days.\n3: If you die, the [cd5c5c]GAME IS OVER[-].\n4: You must survive until you are able to build a gyrocopter and fly to the helipad.\n\nYou have [cd5c5c]ONE[-] life. Make it count."
 tutorialTipQuest01_titleFMC,Started The Frantic Mansion Challenge
 
 quest_whiteRiverCitizen1_hint1,[FFB400]Escape the Frantic Mansion![-]
