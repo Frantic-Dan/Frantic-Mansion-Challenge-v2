@@ -27,7 +27,7 @@
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='DeathPenalty']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='DropOnDeath']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='DropOnQuit']" />
-
+	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid[@pos='6,-51']//gameoption[@name='JarRefund']/@values">0, 0</set>
 	<remove xpath="/windows/window[@name='newsWindow']"/>
 
 </configs>
