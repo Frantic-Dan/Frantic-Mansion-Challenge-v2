@@ -1,4 +1,4 @@
-<Frantic_Dan>
+<Hells_Janitor>
 
 	<set xpath="//action_sequence[@name='game_first_spawn']">
 		<property name="allow_user_trigger" value="false"/>
@@ -28,6 +28,8 @@
 	</append>
 	
 	<remove xpath="//action_sequence[@name='challenge_group_reward_basics']//action[@class='AddSkillPoints']"/>
+	
+	<set xpath="/gameevents/action_sequence[@name='block_tree_stump_bees']/requirement[1]/property[@name='value']/@value">40</set>
 	
 	<append xpath="/gameevents">
 		<action_sequence name="DTC_step_one">
@@ -62,7 +64,5 @@
 	</action_sequence>
 	
 	</append>
-	
-	<set xpath="/gameevents/action_sequence[@name='block_tree_stump_bees']/requirement[1]/property[@name='value']/@value">40</set>
 
-</Frantic_Dan>
+</Hells_Janitor>
