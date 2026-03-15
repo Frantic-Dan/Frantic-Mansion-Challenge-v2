@@ -258,7 +258,7 @@
 	<entity_class name="DishongEntityLootContainer">
 		<property name="Class" value="EntityLootContainer" />
 		<property name="UserSpawnType" value="Console" />
-		<property name="Mesh" value="@:Entities/LootContainers/zpackRedPrefab.prefab" />
+		<property name="Mesh" value="@:Entities/LootContainers/backpack03Prefab.prefab" />
 		<property name="ModelType" value="Custom" />
 		<property name="Prefab" value="Backpack" />
 		<property name="Parent" value="Backpack" />
