@@ -260,6 +260,7 @@
 	</insertafter>
 	
 	<remove xpath="//block[@name='pictureRobertDishongPlaque']//property[1]"/>
+	<remove xpath="/blocks/block[@name='cntDewCollector']/property[@name='FuelTypes']"/>
 	
 	<insertafter xpath="/blocks/block[@name]/property[1]">
 	<property name="CreativeMode" value="None"/>
