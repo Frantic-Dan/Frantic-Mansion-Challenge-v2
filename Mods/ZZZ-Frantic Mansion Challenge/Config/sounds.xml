@@ -1,0 +1,6 @@
+<configs>
+
+<remove	xpath="/Sounds/SoundDataNode[@name='ui_weather_alert']"/>
+<set xpath="/Sounds/SoundDataNode[@name='zpack_spawn']/AudioClip/@ClipName">none</set>
+
+</configs>
