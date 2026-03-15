@@ -64,17 +64,30 @@
 	
 	<!-- lowers number requirement of workstation magazines to craft workstations AFTER workbench, up to and including crucible -->
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/@max_level">50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT1-1,workstationsT1-2']/@unlock_level">1,5</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[1]/@level">1,50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[2]/@level">5,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT1-1,workstationsT1-3,workstationsT1-4,workstationsT1-5']/@unlock_level">4,7,10,15</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT2-1,workstationsT2-3,workstationsT2-6']/@unlock_level">1,15,18</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT3-2,workstationsT3-3,workstationsT3-4']/@unlock_level">20,22,25</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT4-1,workstationsT4-3,workstationsT4-5,workstationsT4-6']/@unlock_level">28,30,35,40</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT5-2,workstationsT5-5']/@unlock_level">45,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[1]/@level">4,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[2]/@level">7,50</set>
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[3]/@level">10,50</set>
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[4]/@level">15,50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[5]/@level">20,50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[6]/@level">25,50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[7]/@level">30,50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT4']/@unlock_level">40</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[5]/@level">1,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[6]/@level">15,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[7]/@level">18,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[8]/@level">20,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[9]/@level">22,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[10]/@level">25,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[11]/@level">28,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[12]/@level">30,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[13]/@level">35,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[14]/@level">40,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[15]/@level">45,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[16]/@level">50,50</set>
+	<!-- <set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT4']/@unlock_level">40</set> -->
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[8]/@level">40,50</set>
-	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT5']/@unlock_level">50</set>
+	<!-- <set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT5']/@unlock_level">50</set> -->
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[9]/@level">50,50</set>
 	
 	<remove xpath="//skill[@name='skillIntellectInfluence']"/>
