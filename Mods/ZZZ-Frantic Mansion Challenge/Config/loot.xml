@@ -42,7 +42,17 @@
 	<remove xpath="//lootgroup[@name='groupMailbox02']//item[@name='resourcePaper']" />
 	<remove xpath="//lootgroup[@name='groupCrackabookShelves01']//item[@name='resourcePaper']" />
 	<remove xpath="//lootgroup[@name='groupFileCabinet01']//item[@name='resourcePaper']" />
-	<remove xpath="//lootgroup[@name='groupMoPowerShelves']//item[@name='resourcePaper']" />	
+	<remove xpath="//lootgroup[@name='groupMoPowerShelves01']//item[@name='resourcePaper']" />	
+	
+	<!-- remove useless items -->
+	<remove xpath="//lootgroup[@name='rareFoodDrink']//item[@name='drinkJarGrandpasAwesomeSauce']" />
+	<remove xpath="//lootgroup[@name='groupDrinksRare']//item[@name='drinkJarGrandpasAwesomeSauce']" />
+	<remove xpath="//lootgroup[@name='groupLiquorBonus']//item[@name='drinkJarGrandpasAwesomeSauce']" />
+	<remove xpath="//lootgroup[@name='groupZpackReg04']//item[@name='modArmorHelmetLight']" />
+	<remove xpath="//lootgroup[@name='groupZpackPlague04']//item[@name='modArmorHelmetLight']" />
+	<remove xpath="//lootgroup[@name='groupZpackStrong04']//item[@name='modArmorHelmetLight']" />
+	<remove xpath="//lootgroup[@name='modArmorT1']//item[@name='modArmorHelmetLight']" />
+	<remove xpath="//lootgroup[@name='schematicsModsAndGeneralT1']//item[@name='modArmorHelmetLightSchematic']" />
 	
 	<!-- changes to cement mixer loot -->
     <set xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot']">
