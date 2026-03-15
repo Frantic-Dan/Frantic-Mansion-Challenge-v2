@@ -34,7 +34,7 @@
 
 				<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
 
-				<filledsprite depth="5" name="BarContent" color="0,54,255,128" width="169" type="filled" fill="0"  />
+				<filledsprite depth="5" name="BarContent" color="0,54,255,128" width="169" type="filled" fill="{statfill}"  />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="ui_game_symbol_agility" size="35,35" pos="26,-24" pivot="center" foregroundlayer="true"/>
 				<label depth="7" name="TextContent" pos="44,-23" font_size="32" color="[white]" justify="center" pivot="left" text="{statcurrentwithmax}" width="125" height="35"/>
 
@@ -49,7 +49,7 @@
 				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 				<filledsprite depth="3" name="background" color="110,110,110,128" width="169" type="filled" fill="{statmodifiedmax}" />
 
-				<filledsprite depth="5" name="BarContent" color="255,0,0,128" width="169" type="filled" fill="0" />
+				<filledsprite depth="5" name="BarContent" color="255,0,0,128" width="169" type="filled" fill="{statfill}" />
 				<sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="35,35" pos="26,-24" pivot="center" foregroundlayer="true"/>
 				<label depth="7" name="TextContent" pos="44,-23" font_size="32" color="[white]" justify="center" pivot="left" text="{statcurrentwithmax}" width="125" height="35"/>
 
@@ -80,14 +80,14 @@
 				<sprite depth="1" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
 				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
 
-				<filledsprite depth="5" pos="1,0" width="376" name="BarContent" color="0,255,54,128" globalopacity="false" type="filled" fill="0"  />
+				<filledsprite depth="5" pos="1,0" width="376" name="BarContent" color="0,255,54,128" globalopacity="false" type="filled" fill="{statfill}"  />
 			</rect>
 
 			<rect pos="376,-77" width="377" height="16" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
 				<sprite depth="1" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
 				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
 
-				<filledsprite depth="5" pos="1,0" width="376" name="BarContent" color="0,54,255,160" globalopacity="false" type="filled" fill="0"  />
+				<filledsprite depth="5" pos="1,0" width="376" name="BarContent" color="0,54,255,160" globalopacity="false" type="filled" fill="{statfill}"  />
 			</rect>
 			
 		</rect>
@@ -104,7 +104,7 @@
 
 				<filledsprite depth="3" name="background" color="110,110,110,128" type="filled" fill="1" />
 
-				<filledsprite depth="4" name="BarContent" color="{stealthcolor}" type="filled" fill="0" />
+				<filledsprite depth="4" name="BarContent" color="{stealthcolor}" type="filled" fill="{statfill}" />
 				<sprite depth="5" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="35,35" pos="26,-24" pivot="center" foregroundlayer="true"/>
 				<label depth="6" name="TextContent" pos="44,-23" font_size="32" color="[white]" justify="center" pivot="left" text="{statcurrent}" width="125" height="35"/>
 
