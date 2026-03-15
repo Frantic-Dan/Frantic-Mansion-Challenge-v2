@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-    <ServerGroup Name="Frantic Mansion Challenge v2" Logo="" Description="Can you escape the Spencer Mansion?">
-        <Server Name="Frantic Mansion Challenge v2" Logo="">
+    <ServerGroup Name="Frantic Mansion Challenge v2.6" Logo="" Description="Can you escape the Spencer Mansion?">
+        <Server Name="Frantic Mansion Challenge v2.6" Logo="">
             <Description>
 The challenge system has been reworked to reflect the specific challenges for the Spencer Mansion
 
@@ -25,15 +25,13 @@ Custom questline, guiding you on your way, and a Custom HUD.
 					
 CHALLENGE RULES: 
 
-1: You can walk on the dirt outside, but you cannot walk beyond the dirt.
+1: You can walk around outside, but you cannot walk beyond the red barrier.
 
-2: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
+2: All default game settings, or harder, but not easier. It's recommended to have loot respawn set to 5 days.
 
-3: All default game settings, or harder, but not easier. It's recommended to have loot respawn set to 5 days.
+3: If you die, the game is over.
 
-4: If you die, the game is over.
-
-5: You must survive until you are able to build a gyrocopter and fly off the roof.
+4: You must survive until you are able to build a gyrocopter and fly off the roof.
 			
 Contributors:
 FranticMansionGameOptions 			-Author: w00kien00kie
@@ -57,7 +55,7 @@ Credit to Glock9 for the very first idea of the challenge, which inspired the cr
             <Version>Latest</Version>
             <DownloadMode>Clone</DownloadMode>
             <Downloads>
-                <Download>https://github.com/Frantic-Dan/Frantic-Mansion-Challenge-v2</Download>
+                <Download>https://github.com/Frantic-Dan/Frantic-Mansion-Challenge</Download>
             </Downloads>
         </Server>
     </ServerGroup>
