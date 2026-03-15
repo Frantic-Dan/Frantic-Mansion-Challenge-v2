@@ -2,11 +2,11 @@
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='XPMultiplier']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='DayNightLength']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='BiomeProgression']" />
-	<set xpath="/windows/window[@name='newContinueGame']/rect[2]/rect[1]/rect[2]/rect[2]/grid[@pos='6,-77']//gameoption[@name='BloodMoonFrequency']/@values">1,2,3,4,5,6,7,8,9,10</set>
+	<set xpath="/windows/window[@name='newContinueGame']/rect[2]/rect[1]/rect[2]/rect[2]/grid[@pos='6,-51']//gameoption[@name='BloodMoonFrequency']/@values">1,2,3,4,5,6,7,8,9,10</set>
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='BlockDamagePlayer']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='QuestProgressionDailyLimit']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='LootAbundance']" />
-	<set xpath="/windows/window[@name='newContinueGame']/rect[2]/rect[1]/rect[2]/rect[3]/grid[@pos='6,-77']//gameoption[@name='LootRespawnDays']/@values">3,4,5,6,7,8,9,10</set>
+	<set xpath="/windows/window[@name='newContinueGame']/rect[2]/rect[1]/rect[2]/rect[3]/grid[@pos='6,-51']//gameoption[@name='LootRespawnDays']/@values">3,4,5,6,7,8,9,10</set>
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='BlockDamageAI']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='BlockDamageAIBM']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='EnemySpawnMode']" />
