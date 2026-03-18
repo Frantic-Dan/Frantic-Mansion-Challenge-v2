@@ -10,16 +10,94 @@
 	</set>	
 	
 	<set xpath="//entitygroup[@name='ZombiesDesert']">
-		zombiePlagueSpitter, 10
-		none, 90
-	</set>	
-	
-	<set xpath="//entitygroup[@name='ZombiesSnow']">
-		zombieFrostclaw, 10
-		none, 90
-	</set>	
+		zombieRancher, .15
+		zombieMoe, .25
+		zombieFatHawaiian, .2
+		zombieSteveCrawler, .05
+		none, 35
+	</set>
 	
 	<set xpath="//entitygroup[@name='ZombiesDesertNight']">
+		zombieRancher, .15
+		zombieMoeFeral, .25
+		zombieFatHawaiianFeral, .2
+		zombieBikerFeral, .1
+		none, 30
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesSnow']">
+		zombieChuck, .15
+		zombieMoe, .25
+		zombieLumberjack, .25
+		none, 35
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesSnowNight']">
+		zombieChuck, .15
+		zombieMoeFeral, .25
+		zombieLumberjack, .15
+		zombieLumberjackFeral, .15
+		none, 30
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesWasteland']">
+		zombieMutated, .25
+		zombieFatCop, .2
+		zombieMaleHazmat, .3
+		zombieWightFeral, .05
+		zombieBurntFeral, .1
+		zombieNurseFeral, .1
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesAllWasteland']">
+		zombieBowler, .1
+		zombieArlene, .4
+		zombieSteveCrawler, .4
+		zombieJoe, .4
+		zombieSteve, .4
+		zombieTomClark, .4
+		zombieYo, .4
+		zombieDarlene, .4
+		zombieMarlene, .4
+		zombieMoe, .4
+		zombieBusinessMan, .4
+		zombieBoe, .4
+		zombieFemaleFat
+		zombieFatHawaiian
+		zombieNurse
+		zombieSoldier
+		zombieBurnt
+		zombieSpider
+		zombieFatCop, .3
+		zombieMaleHazmat
+		zombieMutated, .3
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesWastelandNight']">
+		zombieMutated, .4
+		zombieFatCop, .3
+		zombieSoldierFeral, .3
+		zombieWightFeral, .2
+		zombieSpiderFeral, .2
+		zombieFemaleFatFeral
+		zombieBurntFeral
+		zombieMaleHazmatFeral
+		zombieFatHawaiianFeral, .5
+		zombieBowlerFeral, .5
+		zombieBoeFeral, .5
+		zombieJoeFeral, .5
+		zombieSteveFeral, .5
+		zombieTomClarkFeral, .5
+		zombieMoeFeral, .5
+		zombieYoFeral, .5
+		zombieBusinessManFeral, .5
+		zombieArleneFeral, .5
+		zombieDarleneFeral, .5
+		zombieMarleneFeral, .5
+		zombieNurseFeral, .5
+	</set>
+	
+	<!-- <set xpath="//entitygroup[@name='ZombiesDesertNight']">
 		zombieSpider
 		zombieSpiderFeral, .25
 		zombieBoe
@@ -47,14 +125,14 @@
 		zombieNurse
 		zombieNurseFeral, .25
 		animalZombieDog, .05
-		zombiePlagueSpitter
+		zombieRancher, .15
 		zombieFatHawaiian
 		zombieFatHawaiianFeral, .25
 		zombieBowler, .1
 		zombieBowlerFeral, .1
-	</set>	
+	</set> -->	
 	
-	<set xpath="//entitygroup[@name='ZombiesSnowNight']">
+	<!-- <set xpath="//entitygroup[@name='ZombiesSnowNight']">
 		zombieSpider
 		zombieSpiderFeral, .25
 		zombieBoe
@@ -87,5 +165,5 @@
 		zombieFatHawaiianFeral, .25
 		zombieBowler, .1
 		zombieBowlerFeral, .1
-	</set>	
+	</set> -->
 </configs>
