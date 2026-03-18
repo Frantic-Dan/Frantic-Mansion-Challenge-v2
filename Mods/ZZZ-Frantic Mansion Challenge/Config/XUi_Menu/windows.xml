@@ -11,6 +11,7 @@
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='BlockDamageAIBM']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='EnemySpawnMode']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='AirDropFrequency']" />
+	<set xpath="/windows/window[@name='newContinueGame']/rect[2]/rect[1]/rect[2]/rect[2]/grid[@pos='6,-51']//gameoption[@name='StormFreq']/@values">100, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000, 9999</set>
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='MaxChunkAge']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='BuildCreate']" />
 	<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid//gameoption[@name='AirDropMarker']" />
