@@ -4,6 +4,7 @@
 	<remove xpath="/recipes/recipe[@name='vehicleGyroCopterChassis']"/>
 	<remove xpath="/recipes/recipe[@name='vehicleGyrocopterPlaceable']"/>
 	<remove xpath="/recipes/recipe[@name='toolForgeCrucible']"/>
+	<remove xpath="/recipes/recipe[@name='cntDewCollector']"/>
 	<remove xpath="/recipes/recipe[@name='drinkJarEmpty']"/>
   <append xpath="/recipes">
 	<recipe name="vehicleGyroCopterAccessories" count="1" craft_time="30" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
@@ -42,6 +43,12 @@
 	<ingredient name="resourceRockSmall" count="800"/>
 	<ingredient name="resourceOil" count="20"/>
 	<ingredient name="resourceClayLump" count="900"/>
+</recipe>
+
+<recipe name="cntDewCollector" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,packMuleCrafting">
+	<ingredient name="resourceScrapPolymers" count="120"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceDuctTape" count="5"/>
 </recipe>
 
 <recipe name="drinkJarEmpty" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
