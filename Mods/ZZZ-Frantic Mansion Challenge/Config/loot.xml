@@ -279,26 +279,26 @@
 		</lootgroup>
 		
 		<lootgroup name="groupSteveLoot" count="all">
-			<item name="roboticsSkillMagazineDT" prob=".2" force_prob="true" tags="RoLoot"/>
-			<item name="trapsSkillMagazineDT" prob=".2" force_prob="true" tags="TrLoot"/>
-			<item group="groupTechBooks" loot_prob_template="veryLow" force_prob="true" tags="RoLoot"/>
-		</lootgroup>
-		
-		<lootgroup name="groupRadSteveLoot" count="all">
-			<item name="roboticsSkillMagazineDT" prob=".3" force_prob="true" tags="RoLoot"/>
-			<item name="trapsSkillMagazineDT" prob=".3" force_prob="true" tags="TrLoot"/>
-			<item group="groupTechBooks" loot_prob_template="low" force_prob="true" tags="RoLoot"/>
-		</lootgroup>
-		
-		<lootgroup name="groupTomLoot" count="all">
 			<item name="resourceDoorKnob" prob=".15" force_prob="true" tags="RoLoot"/>
 			<item name="resourceGlue" prob=".15" force_prob="true" tags="TrLoot"/>
 			<item group="groupTechBooks" loot_prob_template="veryLow" force_prob="true" tags="RoLoot"/>
 		</lootgroup>
 		
-		<lootgroup name="groupRadTomLoot" count="all">
+		<lootgroup name="groupRadSteveLoot" count="all">
 			<item name="resourceDoorKnob" prob=".3" force_prob="true" tags="RoLoot"/>
 			<item name="resourceGlue" prob=".3" force_prob="true" tags="TrLoot"/>
+			<item group="groupTechBooks" loot_prob_template="low" force_prob="true" tags="RoLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupTomLoot" count="all">
+			<item name="roboticsSkillMagazineDT" prob=".2" force_prob="true" tags="RoLoot"/>
+			<item name="trapsSkillMagazineDT" prob=".2" force_prob="true" tags="TrLoot"/>
+			<item group="groupTechBooks" loot_prob_template="veryLow" force_prob="true" tags="RoLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupRadTomLoot" count="all">
+			<item name="roboticsSkillMagazineDT" prob=".3" force_prob="true" tags="RoLoot"/>
+			<item name="trapsSkillMagazineDT" prob=".3" force_prob="true" tags="TrLoot"/>
 			<item group="groupTechBooks" loot_prob_template="low" force_prob="true" tags="RoLoot"/>
 		</lootgroup>
 		
