@@ -39,7 +39,7 @@
 <remove xpath="/doc/tips//tip[@key='loadingTipBuffs']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipKnownSchematics']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipTwitchIntegration']"/>
-<remove xpath="/doc/tips//tip[@key='loadingTipUnlockingRecipes']"/>
+<!-- <remove xpath="/doc/tips//tip[@key='loadingTipUnlockingRecipes']"/> -->
 <remove xpath="/doc/tips//tip[@key='loadingTipCraftingBetterQL']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipMagazines']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipSmell']"/>
