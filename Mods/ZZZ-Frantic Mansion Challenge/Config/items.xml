@@ -44,6 +44,11 @@
 		<property name="UnlockedBy" value="craftingVehicles"/>
 	</insertbefore>	
 	
+	<remove xpath="/items/item[contains (@name,'drink')]/property[@class='Action0']/property[@name='Create_item']"/>
+	<remove xpath="/items/item[contains (@name,'drink')]/property[@class='Action0']/property[@name='Use_jar_refund']"/>
+	<remove xpath="/items/item[contains (@name,'food')]/property[@class='Action0']/property[@name='Create_item']"/>
+	<remove xpath="/items/item[contains (@name,'food')]/property[@class='Action0']/property[@name='Use_jar_refund']"/>
+	
 	<set xpath="//item[@name='resourceWaterFilter']//property[@name='Stacknumber']/@value">1</set>
 	<insertafter xpath="//item[@name='drugAntibiotics']">
 		<item name="drugAntibioticsDT">
