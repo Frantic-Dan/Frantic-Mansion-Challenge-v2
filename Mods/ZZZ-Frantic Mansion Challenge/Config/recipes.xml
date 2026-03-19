@@ -59,8 +59,8 @@
 	</effect_group>
 </recipe>
   
-    <recipe name="resourceCoal" count="1" craft_area="campfire" craft_time="40" >
-      <ingredient name="resourceWood" count="5"/>
+    <recipe name="resourceCoal" count="1" craft_area="campfire" craft_time="15" >
+      <ingredient name="resourceWood" count="4"/>
     </recipe>
 
     <recipe name="casinoCoin" count="1" craft_time=".2" >
