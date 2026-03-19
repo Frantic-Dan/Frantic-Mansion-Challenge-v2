@@ -85,10 +85,6 @@
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[14]/@level">40,50</set>
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[15]/@level">45,50</set>
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[16]/@level">50,50</set>
-	<!-- <set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT4']/@unlock_level">40</set> -->
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[8]/@level">40,50</set>
-	<!-- <set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT5']/@unlock_level">50</set> -->
-	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[9]/@level">50,50</set>
 	
 	<remove xpath="//skill[@name='skillIntellectInfluence']"/>
 	<remove xpath="//perk[@name='perkBetterBarter']"/>
