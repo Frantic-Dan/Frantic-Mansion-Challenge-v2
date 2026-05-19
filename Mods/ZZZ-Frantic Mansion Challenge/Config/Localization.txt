@@ -172,7 +172,7 @@ zombieYoFeral,Feral YubiNashi
 zombieYoRadiated,Radiated YubiNashi
 zombieWightFeral,Tyrant - Mr.X
 zombieWightRadiated,Radiated Tyrant - Mr.X
-animalZombieDog,
+animalZombieDog,AuroraGiggleFairy
 animalZombieVulture,Audiogasms
 animalZombieVultureRadiated,Radiated Audiogasms
 zombieMutated,
