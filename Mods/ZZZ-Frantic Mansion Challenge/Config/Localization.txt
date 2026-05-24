@@ -125,9 +125,11 @@ zombieJanitorRadiated,
 zombieJoe,
 zombieJoeFeral,
 zombieJoeRadiated,
-zombieLab,
-zombieLabFeral,
-zombieLabRadiated,
+zombieLab,Kualija
+zombieLabFeral,Feral Kualija
+zombieLabRadiated,Radiated Kualija
+zombieLabInfernal,Infernal Kualija
+zombieLabCharged,Charged Kualija
 zombieLumberjack,
 zombieLumberjackFeral,
 zombieLumberjackRadiated,
