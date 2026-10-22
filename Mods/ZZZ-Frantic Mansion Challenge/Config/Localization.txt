@@ -110,6 +110,9 @@ zombieBurntRadiated,
 zombieBusinessMan,
 zombieBusinessManFeral,
 zombieBusinessManRadiated,
+zombieSteveCrawler,GameRetainer
+zombieSteveCrawlerFeral,Feral GameRetainer
+zombieSteveCrawlerRadiated,Radiated GameRetainer
 zombieDarlene,
 zombieDarleneFeral,
 zombieDarleneRadiated,

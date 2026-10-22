@@ -1,5 +1,6 @@
 ﻿<configs>
-
+	
+	<remove xpath="/recipes/recipe[@name='foodRawMeatBundle']"/>
 	<remove xpath="/recipes/recipe[@name='vehicleGyroCopterAccessories']"/>
 	<remove xpath="/recipes/recipe[@name='vehicleGyroCopterChassis']"/>
 	<remove xpath="/recipes/recipe[@name='vehicleGyrocopterPlaceable']"/>
